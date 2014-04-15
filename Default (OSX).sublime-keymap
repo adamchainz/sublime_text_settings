@@ -1,0 +1,192 @@
+[
+    // More Mac OSX-y
+    // { "keys": ["super+shift+f"], "command": "toggle_full_screen" },
+    { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["super+ctrl+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+    { "keys": ["alt+up"], "command":"move_to", "args":{"to":"bol"}},
+    { "keys": ["alt+down"], "command":"move_to", "args":{"to":"eol"}},
+    { "keys": ["alt+up"], "command":"move_to", "args":{"to":"bol"},
+        "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]},
+    { "keys": ["alt+down"], "command":"move_to", "args":{"to":"eol"},
+        "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]},
+    { "keys": ["shift+alt+up"], "command":"move_to", "args":{"to":"bol", "extend":true}},
+    { "keys": ["shift+alt+down"], "command":"move_to", "args":{"to":"eol", "extend":true}},
+    { "keys": ["home"], "command":"move_to", "args":{"to":"bof"}},
+    { "keys": ["end"], "command":"move_to", "args":{"to":"eof"}},
+
+    // Make switching view per-group only
+    { "keys": ["ctrl+tab"], "command": "next_view_in_group" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_group" },
+    { "keys": ["super+shift+]"], "command": "next_view_in_group" },
+    { "keys": ["super+shift+["], "command": "prev_view_in_group" },
+
+    // Enable tab rearrangement
+    { "keys": ["ctrl+shift+pageup"], "command": "move_view_left" },
+    { "keys": ["ctrl+shift+pagedown"], "command": "move_view_right" },
+
+    // Enable indentation browsing
+    // { "keys": ["super+up"], "command": "" },
+    // { "keys": ["super+up"], "command": "run_macro_file", "args": {"file": "Packages/User/move_by_def_class.sublime-macro"} },
+    { "keys": ["super+up"], "command": "find_under_prev" },
+    { "keys": ["super+down"], "command": "find_under" },
+
+
+    // Line operations
+    { "keys": ["shift+delete"], "command": "join_lines" },
+    { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+d"], "command": "duplicate_line" },
+    { "keys": ["super+backspace"], "command": "delete_line_above" },
+    { "keys": ["super+delete"], "command": "delete_line_below" },
+
+    // Instant goto line & incremental
+    { "keys": ["ctrl+g"], "command": "prompt_goto_line" },
+    { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+    { "keys": ["super+i"], "command": "show_panel", "args": {"panel": "incremental_find", "select_text": false, "reverse": false} },
+    { "keys": ["super+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "select_text": false, "reverse": true} },
+    { "keys": ["super+g"], "command": "find_next", "args": {"reverse": false} },
+    { "keys": ["super+shift+g"], "command": "find_prev", "args": {"reverse": false} },
+
+    // Add in UI hide/show
+    { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
+    { "keys": ["super+k","super+m"], "command": "toggle_minimap"},
+    { "keys": ["super+k","super+t"], "command": "toggle_tabs"},
+
+    // More web-browser-y
+    { "keys": ["super+t"], "command": "new_file" },
+    { "keys": ["super+left"], "command": "soft_undo" },
+    { "keys": ["super+right"], "command": "soft_redo" },
+
+    // Make multiselection better
+    { "keys": ["super+q","super+l"], "command": "split_selection_into_lines" },
+    { "keys": ["super+q","up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+q","down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["super+q","super+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+q","super+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["super+shift+d"], "command": "find_under_prev_expand" },
+    { "keys": ["super+shift+k", "super+shift+d"], "command": "find_under_prev_expand_skip" },
+    { "keys": ["super+alt+d"], "command": "add_next_word" },
+    { "keys": ["super+k","super+alt+d"], "command": "add_next_word_skip" },
+    { "keys": ["super+alt+k","super+alt+d"], "command": "add_next_word_skip" },
+    // { "keys": ["escape"], "command": "move", "args": {"by": "words", "forward": false}, "context":
+    //     [
+    //         { "key": "num_selections", "operator": "equal", "operand": 1 },
+    //         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }
+    //     ]
+    // },
+
+    // scroll view easily
+    // { "keys": ["shift+space"], "command": "scroll_lines", "args": {"amount": 5} },
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 10} },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -10} },
+
+    // Easily fix lint errors
+    { "keys": ["super+shift+l"], "command": "find_next_lint_error" },
+
+    // Fix paste with indentation as default, add reindent shortcut
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+
+    // Switch to last file
+    { "keys": ["super+9"], "command": "last_view" },
+
+    // Book marks on cmd-b
+    { "keys": ["super+shift+b"], "command": "build" },
+    { "keys": ["super+b", "super+b"], "command": "toggle_bookmark" },
+    { "keys": ["super+b", "super+m"], "command": "toggle_bookmark" },
+    { "keys": ["super+b", "super+p"], "command": "prev_bookmark" },
+    { "keys": ["super+b", "super+n"], "command": "next_bookmark" },
+    { "keys": ["super+b", "super+c"], "command": "clear_bookmarks" },
+    { "keys": ["super+b", "super+shift+m"], "command": "select_all_bookmarks" },
+    { "keys": ["super+b", "super+a"], "command": "select_all_bookmarks" },
+
+    // * wrap around
+    { "keys": ["*"], "command": "insert_snippet", "args": {"contents": "*${0:$SELECTION}*"}, "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+    // { "keys": ["_"], "command": "insert_snippet", "args": {"contents": "_${0:$SELECTION}_"}, "context":
+    //     [
+    //         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    //         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    //     ]
+    // },
+
+    // Fix escape on incremental find
+    { "keys": ["escape"], "command": "hide_panel", "context":
+        [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
+    },
+
+    // Smart title case
+    { "keys": ["super+k","super+shift+u"], "command": "smart_title_case"},
+
+    // Word deletion like terminal
+    { "keys": ["alt+shift+d"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
+    { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
+
+    // Smart quote wrapping
+    { "keys": ["alt+["],
+       "command": "insert_snippet",
+       "args": {"contents": "“${0:$SELECTION}”"},
+       "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+    { "keys": ["alt+]"],
+       "command": "insert_snippet",
+       "args": {"contents": "‘${0:$SELECTION}’"},
+       "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+
+    // Default font size
+    { "keys": ["super+0"], "command": "default_font_size" },
+
+    // Fuckin' snippets stop cycling on tab
+    { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
+        "context":
+        [
+            { "key": "has_next_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["shift+tab"], "command": "noop", "context":
+        [
+            { "key": "has_prev_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["super+up"], "command": "prev_field", "context":
+        [
+            { "key": "has_prev_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["super+down"], "command": "next_field", "context":
+        [
+            { "key": "has_next_field", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Rope
+    { "keys": ["super+shift+r"], "command": "python_jump_to_global" },
+    { "keys": ["super+ctrl+r"], "command": "python_jump_to_global" },
+
+
+    // Emmet
+    { "keys": ["alt+shift+w"], "command": "wrap_as_you_type" },
+
+    // OpenSearchResult
+    { "keys": ["alt+o"], "command": "open_search_result"},
+
+    // Modific
+    { "keys": ["shift+super+m"], "command": "uncommitted_files" },
+    { "keys": ["alt+shift+n"], "command": "jump_between_changes", "args": {"direction": "prev"} },
+    { "keys": ["alt+shift+e"], "command": "jump_between_changes", "args": {"direction": "next"} }
+]

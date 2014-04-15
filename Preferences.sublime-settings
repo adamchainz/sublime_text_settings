@@ -1,0 +1,144 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"close_windows_when_empty": true,
+	"codeintel_disabled_languages":
+	[
+	],
+	"codeintel_live_disabled_languages":
+	[
+		"python"
+	],
+	"color_scheme": "Packages/User/Phix Dark Chainz (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_centered": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.tmLanguage.cache",
+		"*.tmPreferences.cache",
+		"*.psd",
+		"*.psb",
+		"*.png",
+		"*.gif",
+		"*.jpg",
+		"*.jpeg",
+		"Gemfile.lock",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.ico",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.sublime-workspace",
+		".DS_Store",
+		"*.pdf",
+		"*.class",
+		"*.mov",
+		"*.mp3",
+		"*.mp4",
+		"*.swf",
+		"*.xls",
+		"*.bak",
+		"*.backup",
+		"*.acorn",
+		"*.license",
+		"*.zargo*"
+	],
+	"find_selected_text": false,
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".git",
+		".sass-cache",
+		"*.esproj",
+		"*.tiles",
+		"*.svn"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 16.0,
+	"gutter": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"highlight_search_icon": "bookmark",
+	"highlight_search_results": true,
+	"highlight_search_scope": "entity.name.function",
+	"highlight_trailing_spaces_color_name": "",
+	"highlight_word_under_cursor_when_selection_is_empty": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"matchBracketsContent": false,
+	"open_files_in_new_window": false,
+	"preview_on_click": false,
+	"rulers":
+	[
+		79
+	],
+	"save_on_focus_lost": false,
+	"scroll_speed": 1.8,
+	"show_full_path": true,
+	"show_tab_close_buttons": true,
+	"sublimelinter_mark_style": "outline",
+	"sublimelinter_popup_errors_on_save": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
+	"va_align_words": true,
+	"va_alignment_chars":
+	[
+		{
+			"alignment": "right",
+			"char": "=",
+			"left_space": true,
+			"prefixes":
+			[
+				"+",
+				"-",
+				"&",
+				"|",
+				"<",
+				">",
+				"!",
+				"~",
+				"%",
+				"/",
+				"*",
+				"."
+			],
+			"right_space": true
+		},
+		{
+			"alignment": "left",
+			"char": ":",
+			"left_space": false,
+			"prefixes":
+			[
+			],
+			"right_space": true
+		}
+	],
+	"word_wrap": true
+}
