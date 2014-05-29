@@ -1,6 +1,8 @@
 [
+    // ST3 Fixes
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+
     // More Mac OSX-y
-    // { "keys": ["super+shift+f"], "command": "toggle_full_screen" },
     { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
     { "keys": ["super+ctrl+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
@@ -25,12 +27,9 @@
     { "keys": ["ctrl+shift+pageup"], "command": "move_view_left" },
     { "keys": ["ctrl+shift+pagedown"], "command": "move_view_right" },
 
-    // Enable indentation browsing
-    // { "keys": ["super+up"], "command": "" },
-    // { "keys": ["super+up"], "command": "run_macro_file", "args": {"file": "Packages/User/move_by_def_class.sublime-macro"} },
+    // Faster finding
     { "keys": ["super+up"], "command": "find_under_prev" },
     { "keys": ["super+down"], "command": "find_under" },
-
 
     // Line operations
     { "keys": ["shift+delete"], "command": "join_lines" },
@@ -174,19 +173,10 @@
         ]
     },
 
-    // Rope
-    { "keys": ["super+shift+r"], "command": "python_jump_to_global" },
-    { "keys": ["super+ctrl+r"], "command": "python_jump_to_global" },
-
-
     // Emmet
     { "keys": ["alt+shift+w"], "command": "wrap_as_you_type" },
 
-    // OpenSearchResult
-    { "keys": ["alt+o"], "command": "open_search_result"},
-
     // Modific
     { "keys": ["shift+super+m"], "command": "uncommitted_files" },
-    { "keys": ["alt+shift+n"], "command": "jump_between_changes", "args": {"direction": "prev"} },
-    { "keys": ["alt+shift+e"], "command": "jump_between_changes", "args": {"direction": "next"} }
+    { "keys": ["alt+shift+n"], "command": "jump_between_changes", "args": {"direction": "next"} },
 ]

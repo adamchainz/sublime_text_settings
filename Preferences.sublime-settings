@@ -3,7 +3,7 @@
 	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"close_windows_when_empty": true,
+	"close_windows_when_empty": false,
 	"codeintel_disabled_languages":
 	[
 	],
