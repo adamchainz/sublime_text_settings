@@ -3,9 +3,7 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
-		"Camaleon",
 		"Case Conversion",
-		"Color Schemes by carlcalderon",
 		"CSSTidy",
 		"DashDoc",
 		"Emmet",
@@ -27,16 +25,12 @@
 		"Phix Color Scheme",
 		"Pretty JSON",
 		"SCSS",
-		"StringUtilities",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-pep8",
 		"Switch View in Group",
-		"TextFormatting",
 		"Theme - Soda",
-		"TypeScript",
 		"Unicode Character Highlighter",
-		"VAlign",
 		"WordCount",
 		"WordHighlight",
 		"Wrap Plus"
