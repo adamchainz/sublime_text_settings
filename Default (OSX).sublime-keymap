@@ -69,12 +69,6 @@
     { "keys": ["super+alt+d"], "command": "add_next_word" },
     { "keys": ["super+k","super+alt+d"], "command": "add_next_word_skip" },
     { "keys": ["super+alt+k","super+alt+d"], "command": "add_next_word_skip" },
-    // { "keys": ["escape"], "command": "move", "args": {"by": "words", "forward": false}, "context":
-    //     [
-    //         { "key": "num_selections", "operator": "equal", "operand": 1 },
-    //         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }
-    //     ]
-    // },
 
     // scroll view easily
     // { "keys": ["shift+space"], "command": "scroll_lines", "args": {"amount": 5} },
@@ -82,7 +76,7 @@
     { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -10} },
 
     // Easily fix lint errors
-    { "keys": ["super+shift+l"], "command": "find_next_lint_error" },
+    { "keys": ["super+shift+l"], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
 
     // Fix paste with indentation as default, add reindent shortcut
     { "keys": ["super+v"], "command": "paste_and_indent" },
@@ -108,12 +102,6 @@
             { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
         ]
     },
-    // { "keys": ["_"], "command": "insert_snippet", "args": {"contents": "_${0:$SELECTION}_"}, "context":
-    //     [
-    //         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-    //         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
-    //     ]
-    // },
 
     // Fix escape on incremental find
     { "keys": ["escape"], "command": "hide_panel", "context":
