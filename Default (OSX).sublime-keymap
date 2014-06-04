@@ -49,7 +49,6 @@
     { "keys": ["super+shift+g"], "command": "find_prev", "args": {"reverse": false} },
 
     // Add in UI hide/show
-    { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
     { "keys": ["super+k","super+m"], "command": "toggle_minimap"},
     { "keys": ["super+k","super+t"], "command": "toggle_tabs"},
 
@@ -81,9 +80,6 @@
     // Fix paste with indentation as default, add reindent shortcut
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },
-
-    // Switch to last file
-    { "keys": ["super+9"], "command": "last_view" },
 
     // Book marks on cmd-b
     { "keys": ["super+shift+b"], "command": "build" },
@@ -160,6 +156,33 @@
             { "key": "has_next_field", "operator": "equal", "operand": true }
         ]
     },
+
+    /*
+        User plugins
+    */
+
+    // fonts.py
+    { "keys": ["super+0"], "command": "default_font_size" },
+
+    // last_view.py
+    { "keys": ["super+9"], "command": "last_view" },
+
+    // toggle_gutter.py
+    { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
+
+    /*
+        My plugins
+    */
+
+    // Switch view in group
+    { "keys": ["ctrl+tab"], "command": "next_view_in_group" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_group" },
+    { "keys": ["super+shift+]"], "command": "next_view_in_group" },
+    { "keys": ["super+shift+["], "command": "prev_view_in_group" },
+
+    /*
+        Other plugins
+    */
 
     // Emmet
     { "keys": ["alt+shift+w"], "command": "wrap_as_you_type" },
