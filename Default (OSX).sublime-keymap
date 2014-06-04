@@ -17,10 +17,6 @@
     { "keys": ["home"], "command": "move_to", "args": {"to": "bof"}},
     { "keys": ["end"], "command": "move_to", "args": {"to": "eof"}},
 
-    // Enable tab rearrangement
-    { "keys": ["ctrl+shift+pageup"], "command": "move_view_left" },
-    { "keys": ["ctrl+shift+pagedown"], "command": "move_view_right" },
-
     // Faster finding
     { "keys": ["super+up"], "command": "find_under_prev" },
     { "keys": ["super+down"], "command": "find_under" },
@@ -177,6 +173,10 @@
     // Modific
     { "keys": ["shift+super+m"], "command": "uncommitted_files" },
     { "keys": ["alt+shift+n"], "command": "jump_between_changes", "args": {"direction": "next"} },
+
+    // Move Tab
+    { "keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": { "position": "-1"} },
+    { "keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": { "position": "+1"} },
 
     // Smart Title Case
     { "keys": ["super+k","super+shift+u"], "command": "smart_title_case"},
