@@ -1,6 +1,7 @@
 [
     // User plugins
     { "caption": "Interpret with Python", "command": "interpret_with_python" },
+    { "caption": "Select a Column [Tab-Based]", "command": "select_column_prompt" },
 
     // Plugins
     { "caption": "SQL Beautify", "command": "sql_beautifier" },
