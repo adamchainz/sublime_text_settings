@@ -65,16 +65,6 @@
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },
 
-<<<<<<< HEAD
-||||||| parent of 5faa020... Tidy up key map
-    // Switch to last file
-    { "keys": ["super+9"], "command": "last_view" },
-
-=======
-    // 9 = last not 9th
-    { "keys": ["super+9"], "command": "last_view" },
-
->>>>>>> 5faa020... Tidy up key map
     // Book marks on cmd-b
     { "keys": ["super+shift+b"], "command": "build" },
     { "keys": ["super+b", "super+b"], "command": "toggle_bookmark" },
