@@ -1,0 +1,55 @@
+{
+    "scope": "source.python",
+
+    "completions":
+    [
+        // One letter
+        { "trigger": "c", "contents": "cls" },
+        { "trigger": "d", "contents": "\"\"\"\n${1:Documentation}\n\"\"\"" },
+        { "trigger": "F", "contents": "False" },
+        { "trigger": "f", "contents": "from ${1:datetime} import ${2:datetime, timedelta}" },
+        { "trigger": "i", "contents": "import ${1:math}" },
+        { "trigger": "N", "contents": "None" },
+        { "trigger": "p", "contents": "print($0)" },
+        { "trigger": "r", "contents": "return ${1:True}" },
+        { "trigger": "s", "contents": "self" },
+        { "trigger": "T", "contents": "True" },
+
+        // Two letters
+        { "trigger": "pa", "contents": "pass" },
+        { "trigger": "wi", "contents": "with ${1:open()}:" },
+        { "trigger": "ra", "contents": "raise ${1:AssertionError()}" },
+
+        // File headers
+        { "trigger": "hashbang", "contents": "#!/usr/bin/env python\n" },
+        { "trigger": "utf8", "contents": "# coding=utf-8\n" },
+
+        // Features
+        { "trigger": "__all", "contents": "__all__ = ('$0',)" },
+        { "trigger": "super", "contents": "super(${1:Class}, self).${2:__init__}()" },
+
+        // Methods
+        { "trigger": "defc", "contents": "@classmethod\ndef ${1:method}(cls):\n    pass" },
+        { "trigger": "defp", "contents": "@property\ndef ${1:method}(self):\n    return self._value" },
+        { "trigger": "deft", "contents": "@staticmethod\ndef ${1:method}():\n    return True" },
+        { "trigger": "defsuper", "contents": "def ${1:method_name}(self, *args, **kwargs):\n    return super(${3:Class}, self).${1:method_name}(*args, **kwargs)" },
+        { "trigger": "definit", "contents": "def __init__(self, *args, **kwargs):\n    super(${1:Class}, self).__init__(*args, **kwargs)\n" },
+
+        // Debugging
+        { "trigger": "pdb", "contents": "import pdb; pdb.set_trace()" },
+        { "trigger": "ipdb", "contents": "import ipdb; ipdb.set_trace()" },
+
+        // unittest
+        { "trigger": "aE", "contents": "self.assertEqual(${1:actual}, ${2:expected})" },
+        { "trigger": "aNE", "contents": "self.assertNotEqual(${1:a}, ${2:b})" },
+        { "trigger": "aG", "contents": "self.assertGreater(${1:a}, ${2:b})" },
+        { "trigger": "aGE", "contents": "self.assertGreaterEqual(${1:a}, ${2:b})" },
+        { "trigger": "aL", "contents": "self.assertLess(${1:a}, ${2:b})" },
+        { "trigger": "aLE", "contents": "self.assertLessEqual(${1:a}, ${2:b})" },
+        { "trigger": "aI", "contents": "self.assertIn(${1:item}, ${2:container})" },
+        { "trigger": "aNI", "contents": "self.assertNotIn(${1:item}, ${2:container})" },
+        { "trigger": "aF", "contents": "self.assertFalse(${1:thing})" },
+        { "trigger": "aT", "contents": "self.assertTrue(${1:thing})" },
+        { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
+    ]
+}

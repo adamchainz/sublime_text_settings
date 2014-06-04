@@ -1,0 +1,8 @@
+{
+    "scope": "source.shell",
+
+    "completions":
+    [
+        { "trigger": "hashbang", "contents": "#!/bin/sh\n" },
+    ]
+}
