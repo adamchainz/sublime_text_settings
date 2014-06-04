@@ -1,6 +1,8 @@
 [
-    {
-        "caption": "SQL Beautify",
-        "command": "sql_beautifier"
-    }
+    // User plugins
+    { "caption": "Interpret with Python", "command": "interpret_with_python" },
+
+    // Plugins
+    { "caption": "SQL Beautify", "command": "sql_beautifier" },
+    { "caption": "Wrap Lines Plus", "command": "wrap_lines_plus" },
 ]
