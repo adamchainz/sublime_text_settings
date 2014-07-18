@@ -39,6 +39,10 @@
         { "trigger": "pdb", "contents": "import pdb; pdb.set_trace()" },
         { "trigger": "ipdb", "contents": "import ipdb; ipdb.set_trace()" },
 
+        // Logging
+        { "trigger": "log", "contents": "logger.${2:info}($1)" },
+        { "trigger": "logger", "contents": "logger = logging.getLogger(__name__)" },
+
         // unittest
         { "trigger": "aE", "contents": "self.assertEqual(${1:actual}, ${2:expected})" },
         { "trigger": "aNE", "contents": "self.assertNotEqual(${1:a}, ${2:b})" },
@@ -51,5 +55,10 @@
         { "trigger": "aF", "contents": "self.assertFalse(${1:thing})" },
         { "trigger": "aT", "contents": "self.assertTrue(${1:thing})" },
         { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
+
+        // Templates
+        { "trigger": "ttscript", "contents": "#!/usr/bin/env python\n\ndef main():\n    ${1:code}\n\nif __name__ == 'main':\n    main()" },
+        { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
+
     ]
 }
