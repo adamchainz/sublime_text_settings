@@ -42,6 +42,7 @@
         // Debugging
         { "trigger": "pdb", "contents": "import pdb; pdb.set_trace()" },
         { "trigger": "ipdb", "contents": "import ipdb; ipdb.set_trace()" },
+        { "trigger": "ipython", "contents": "import IPython; IPython.embed()" },
 
         // Logging
         { "trigger": "log", "contents": "logger.${2:info}($1)" },
