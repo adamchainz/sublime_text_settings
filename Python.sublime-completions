@@ -64,6 +64,8 @@
         // Imports
         { "trigger": "inumpy", "contents": "import numpy as np" },
         { "trigger": "ipandas", "contents": "import pandas as pd" },
+        { "trigger": "ipath", "contents": "from pathlib import Path" },
+        { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
 
         // Templates
         { "trigger": "ttscript", "contents": "#!/usr/bin/env python\n\ndef main():\n    ${1:code}\n\nif __name__ == '__main__':\n    main()" },
