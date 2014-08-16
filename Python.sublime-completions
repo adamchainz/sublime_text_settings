@@ -62,6 +62,7 @@
         { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
 
         // Imports
+        { "trigger": "idatetime", "contents": "import datetime as dt" },
         { "trigger": "inumpy", "contents": "import numpy as np" },
         { "trigger": "ipandas", "contents": "import pandas as pd" },
         { "trigger": "ipath", "contents": "from pathlib import Path" },
