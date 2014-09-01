@@ -27,6 +27,7 @@
         // Features
         { "trigger": "__all", "contents": "__all__ = ('$0',)" },
         { "trigger": "super", "contents": "super(${1:Class}, self).${2:__init__}()" },
+        { "trigger": "superc", "contents": "super(${1:Class}, cls).${2:setUpClass}()" },
 
         // Methods
         { "trigger": "defc", "contents": "@classmethod\ndef ${1:method}(cls):\n    pass" },
