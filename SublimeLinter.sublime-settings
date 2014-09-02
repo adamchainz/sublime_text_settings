@@ -14,9 +14,7 @@
 			"flake8":
 			{
 				"@disable": false,
-				"args":
-				[
-				],
+				"args": ["--jobs", "1"],
 				"builtins": "",
 				"excludes":
 				[
