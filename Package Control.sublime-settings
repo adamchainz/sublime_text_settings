@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
+		"Ansible",
 		"Case Conversion",
 		"CSSTidy",
 		"DashDoc",
