@@ -34,6 +34,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"SublimeLinter-json",
 		"SublimeLinter-pyyaml",
 		"SublimeREPL",
 		"Switch View in Group",
