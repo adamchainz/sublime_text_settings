@@ -2,5 +2,6 @@
 	"extensions":
 	[
 		"yml"
-	]
+	],
+    "tab_size": 2
 }

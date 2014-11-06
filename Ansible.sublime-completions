@@ -1,0 +1,12 @@
+{
+    "scope": "source.ansible",
+
+    "completions":
+    [
+        { "trigger": "su", "contents": "sudo_user: " },
+        { "trigger": "t", "contents": "- name: " },
+        { "trigger": "d", "contents": "- debug: msg=\"$0\"" },
+        { "trigger": "dv", "contents": "- debug: var=" },
+        { "trigger": "wii", "contents": "with_items:\n  - " },
+    ]
+}
