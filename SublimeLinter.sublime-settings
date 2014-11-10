@@ -31,13 +31,21 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "shellcheck": {
+                "@disable": false,
+                "args": [],
+                "exclude": "",
+                "excludes": []
             }
         },
         "mark_style": "outline",
         "no_column_highlights_line": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/usr/local/bin"
+            ],
             "windows": []
         },
         "python_paths": {
