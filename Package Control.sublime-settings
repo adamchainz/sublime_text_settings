@@ -38,6 +38,7 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-json",
 		"SublimeLinter-pyyaml",
+		"SublimeLinter-shellcheck",
 		"SublimeREPL",
 		"Switch View in Group",
 		"Theme - Soda",
