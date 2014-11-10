@@ -3,10 +3,14 @@
 
     "completions":
     [
-        { "trigger": "su", "contents": "sudo_user: " },
-        { "trigger": "t", "contents": "- name: " },
         { "trigger": "d", "contents": "- debug: msg=\"$0\"" },
         { "trigger": "dv", "contents": "- debug: var=" },
+        { "trigger": "env", "contents": "environment: " },
+        { "trigger": "gf", "contents": "gather_facts: no\n" },
+        { "trigger": "su", "contents": "sudo: yes\n" },
+        { "trigger": "suu", "contents": "sudo_user: " },
+        { "trigger": "t", "contents": "- name: " },
+        { "trigger": "w", "contents": "when: " },
         { "trigger": "wii", "contents": "with_items:\n  - " },
     ]
 }
