@@ -7,6 +7,7 @@
         { "trigger": "dv", "contents": "- debug: var=" },
         { "trigger": "env", "contents": "environment: " },
         { "trigger": "gf", "contents": "gather_facts: no\n" },
+        { "trigger": "lif", "contents": "lineinfile:\n  dest: $0\n  line:" },
         { "trigger": "su", "contents": "sudo: yes\n" },
         { "trigger": "suu", "contents": "sudo_user: " },
         { "trigger": "t", "contents": "- name: " },
