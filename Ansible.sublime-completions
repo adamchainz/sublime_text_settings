@@ -3,6 +3,10 @@
 
     "completions":
     [
+        { "trigger": "ass", "contents": "assert: {that: $0}" },
+        { "trigger": "assf", "contents": "- assert: {that: false}" },
+        { "trigger": "cw", "contents": "changed_when: " },
+        { "trigger": "cl", "contents": "connection: local\n" },
         { "trigger": "d", "contents": "- debug: msg=\"$0\"" },
         { "trigger": "dv", "contents": "- debug: var=" },
         { "trigger": "env", "contents": "environment: " },
