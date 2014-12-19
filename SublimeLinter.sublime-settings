@@ -35,7 +35,7 @@
             "shellcheck": {
                 "@disable": false,
                 "args": [],
-                "exclude": "",
+                "exclude": "SC2148,SC2016",
                 "excludes": []
             }
         },
