@@ -74,5 +74,9 @@
         { "trigger": "ttscript", "contents": "#!/usr/bin/env python\n\ndef main():\n    ${1:code}\n\nif __name__ == '__main__':\n    main()" },
         { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
 
+        // Django
+        { "trigger": "isettings", "contents": "from django.conf import settings" },
+        { "trigger": "itimezone", "contents": "from django.utils import timezone" },
+
     ]
 }
