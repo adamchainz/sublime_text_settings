@@ -71,6 +71,7 @@
         { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
 
         // Templates
+        { "trigger": "ffheader", "contents": "# -*- coding:utf-8 -*-\nfrom __future__ import absolute_import, division, print_function, unicode_literals"},
         { "trigger": "ttscript", "contents": "#!/usr/bin/env python\n\ndef main():\n    ${1:code}\n\nif __name__ == '__main__':\n    main()" },
         { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
 
