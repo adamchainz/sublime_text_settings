@@ -61,6 +61,8 @@
         { "trigger": "aF", "contents": "self.assertFalse(${1:thing})" },
         { "trigger": "aT", "contents": "self.assertTrue(${1:thing})" },
         { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
+        { "trigger": "defsetup", "contents": "def setUp(self):\n    super(${1:Class}, self).setUp()"},
+        { "trigger": "defsetupclass", "contents": "@classmethod\ndef setUpClass(cls):\n    super(${1:Class}, cls).setUpClass()"},
 
         // Imports
         { "trigger": "idatetime", "contents": "import datetime as dt" },
@@ -76,7 +78,10 @@
         { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
 
         // Django
+        { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
+        { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
+        { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
 
     ]
