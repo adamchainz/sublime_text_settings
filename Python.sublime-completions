@@ -78,6 +78,7 @@
         { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
 
         // Django
+        { "trigger": "icache", "contents": "from django.core.cache import cache" },
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
         { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
