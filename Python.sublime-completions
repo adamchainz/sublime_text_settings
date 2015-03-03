@@ -78,8 +78,10 @@
         { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == 'main':\n    unittest.main()" },
 
         // Django
+        { "trigger": "iatomic", "contents": "from django.db.transaction import atomic" },
         { "trigger": "icache", "contents": "from django.core.cache import cache" },
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
+        { "trigger": "iconnections", "contents": "from django.db import connections" },
         { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
         { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
