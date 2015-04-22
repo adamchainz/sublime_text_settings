@@ -62,6 +62,7 @@
         { "trigger": "aT", "contents": "self.assertTrue(${1:thing})" },
         { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
         { "trigger": "defsetup", "contents": "def setUp(self):\n    super(${1:Class}, self).setUp()"},
+        { "trigger": "defteardown", "contents": "def tearDown(self):\n    super(${1:Class}, self).tearDown()"},
         { "trigger": "defsetupclass", "contents": "@classmethod\ndef setUpClass(cls):\n    super(${1:Class}, cls).setUpClass()"},
 
         // Imports
@@ -83,9 +84,11 @@
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
         { "trigger": "iconnections", "contents": "from django.db import connections" },
         { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
+        { "trigger": "imodels", "contents": "from django.db import models" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
         { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
+        { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
 
     ]
 }
