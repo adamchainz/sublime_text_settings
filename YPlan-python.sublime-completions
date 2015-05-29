@@ -4,6 +4,6 @@
     "completions":
     [
         // Header
-        { "trigger": "yph", "contents": "# -*- encoding:utf-8 -*-\nfrom __future__ import absolute_import, unicode_literals" }
+        { "trigger": "yph", "contents": "# -*- encoding:utf-8 -*-\nfrom __future__ import absolute_import, division, unicode_literals" }
     ]
 }

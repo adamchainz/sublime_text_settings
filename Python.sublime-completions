@@ -90,6 +90,7 @@
         { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
         { "trigger": "imodels", "contents": "from django.db import models" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
+        { "trigger": "idjsix", "contents": "from django.utils import six" },
         { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
         { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
