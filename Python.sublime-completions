@@ -94,6 +94,7 @@
         { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
         { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
+        { "trigger": "defsetuptestdata", "contents": "@classmethod\ndef setUpTestData(cls):\n    ${0:super(Class, cls).setUpTestData()}"}
 
     ]
 }
