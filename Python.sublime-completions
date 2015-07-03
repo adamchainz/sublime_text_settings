@@ -83,6 +83,7 @@
         { "trigger": "nocover", "contents": "# pragma: no cover"},
 
         // Django
+        { "trigger": "iapps", "contents": "from django.apps import apps" },
         { "trigger": "iatomic", "contents": "from django.db.transaction import atomic" },
         { "trigger": "icache", "contents": "from django.core.cache import cache" },
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
