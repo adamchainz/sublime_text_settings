@@ -34,6 +34,7 @@
         { "trigger": "defp", "contents": "@property\ndef ${1:method}(self):\n    return self._value" },
         { "trigger": "deft", "contents": "@staticmethod\ndef ${1:method}():\n    return True" },
         { "trigger": "defsuper", "contents": "def ${1:method_name}(self, *args, **kwargs):\n    return super(${3:Class}, self).${1:method_name}(*args, **kwargs)" },
+        { "trigger": "defcsuper", "contents": "@classmethod\ndef ${1:method_name}(cls, *args, **kwargs):\n    return super(${3:Class}, cls).${1:method_name}(*args, **kwargs)" },
         { "trigger": "definit", "contents": "def __init__(self, ${1:arg}):\n    self.${1:arg} = ${1:arg}\n" },
         { "trigger": "definitsuper", "contents": "def __init__(self, *args, **kwargs):\n    super(${1:Class}, self).__init__(*args, **kwargs)\n" },
         { "trigger": "defs__", "contents": "def __${1:str}__(self):\n    return ${2:\"\"}\n" },
