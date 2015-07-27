@@ -61,6 +61,8 @@
         { "trigger": "aNI", "contents": "self.assertNotIn(${1:item}, ${2:container})" },
         { "trigger": "aF", "contents": "self.assertFalse(${1:thing})" },
         { "trigger": "aT", "contents": "self.assertTrue(${1:thing})" },
+        { "trigger": "aIN", "contents": "self.assertIsNone(${1:item})" },
+        { "trigger": "aINN", "contents": "self.assertIsNotNone(${1:item})" },
         { "trigger": "aR", "contents": "with self.assertRaises(${1:AssertionError}):\n    ${2:statement}" },
         { "trigger": "defsetup", "contents": "def setUp(self):\n    super(${1:Class}, self).setUp()"},
         { "trigger": "defteardown", "contents": "def tearDown(self):\n    super(${1:Class}, self).tearDown()"},
