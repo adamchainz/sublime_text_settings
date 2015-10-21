@@ -4,6 +4,9 @@
     "completions":
     [
         // Header
-        { "trigger": "yph", "contents": "# -*- encoding:utf-8 -*-\nfrom __future__ import absolute_import, division, unicode_literals" }
+        { "trigger": "yph", "contents": "# -*- encoding:utf-8 -*-\nfrom __future__ import absolute_import, division, unicode_literals" },
+
+        // Tests
+        { "trigger": "ffdir", "contents": "FIXTURES_DIR = Path(__file__).parent.resolve() / 'fixtures'" },
     ]
 }

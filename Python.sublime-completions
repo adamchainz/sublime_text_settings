@@ -68,6 +68,10 @@
         { "trigger": "defteardown", "contents": "def tearDown(self):\n    super(${1:Class}, self).tearDown()"},
         { "trigger": "defsetupclass", "contents": "@classmethod\ndef setUpClass(cls):\n    super(${1:Class}, cls).setUpClass()"},
         { "trigger": "defteardownclass", "contents": "@classmethod\ndef tearDownClass(cls):\n    super(${1:Class}, cls).tearDownClass()"},
+        { "trigger": "ssetup", "contents": "super(${1:Class}, self).setUp()" },
+        { "trigger": "ssetupc", "contents": "super(${1:Class}, cls).setUpClass()" },
+        { "trigger": "steardown", "contents": "super(${1:Class}, self).tearDown()" },
+        { "trigger": "steardownc", "contents": "super(${1:Class}, cls).tearDownClass()" },
 
         // Imports
         { "trigger": "idatetime", "contents": "import datetime as dt" },
@@ -90,6 +94,7 @@
         { "trigger": "iatomic", "contents": "from django.db.transaction import atomic" },
         { "trigger": "icache", "contents": "from django.core.cache import cache" },
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
+        { "trigger": "icall_command", "contents": "from django.core.management import call_command" },
         { "trigger": "iconnections", "contents": "from django.db import connections" },
         { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
         { "trigger": "imodels", "contents": "from django.db import models" },
@@ -99,6 +104,7 @@
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
         { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
         { "trigger": "defsetuptestdata", "contents": "@classmethod\ndef setUpTestData(cls):\n    ${0:super(Class, cls).setUpTestData()}"},
+        { "trigger": "ssetuptd", "contents": "super(${1:Class}, cls).setUpTestData()" },
         { "trigger": "DNE", "contents": "DoesNotExist"}
 
     ]
