@@ -3,8 +3,9 @@ import sublime_plugin
 
 class InterpretWithPythonCommand(sublime_plugin.TextCommand):
     always_import = (
+        'datetime',
         'math',
-        'random'
+        'random',
     )
 
     def run(self, edit):
