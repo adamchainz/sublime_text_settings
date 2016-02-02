@@ -6,7 +6,6 @@
 	],
 	"installed_packages":
 	[
-		"AAAPackageDev",
 		"Ansible",
 		"Case Conversion",
 		"CSSTidy",
@@ -36,6 +35,7 @@
 		"nginx",
 		"OmniMarkupPreviewer",
 		"Package Control",
+		"PackageDev",
 		"Phix Color Scheme",
 		"Pretty JSON",
 		"SCSS",
