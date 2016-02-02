@@ -1,0 +1,9 @@
+{
+    "scope": "text.restructuredtext",
+
+    "completions":
+    [
+        { "trigger": "cbsh", "contents": ".. code-block:: sh\n\n    " },
+        { "trigger": "cbpy", "contents": ".. code-block:: python\n\n    " }
+    ]
+}
