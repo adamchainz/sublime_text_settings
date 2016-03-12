@@ -4,6 +4,7 @@
     "completions":
     [
         { "trigger": "cbsh", "contents": ".. code-block:: sh\n\n    " },
-        { "trigger": "cbpy", "contents": ".. code-block:: python\n\n    " }
+        { "trigger": "cbpy", "contents": ".. code-block:: python\n\n    " },
+        { "trigger": "cbpyc", "contents": ".. code-block:: pycon\n\n    " }
     ]
 }
