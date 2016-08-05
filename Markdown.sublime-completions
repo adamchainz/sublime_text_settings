@@ -1,0 +1,10 @@
+{
+    "scope": "text.html.markdown",
+
+    "completions":
+    [
+        { "trigger": "hipy", "contents": "{% highlight python %}\n$0\n{% endhighlight %}" },
+        { "trigger": "hiyml", "contents": "{% highlight yaml %}\n$0\n{% endhighlight %}" },
+        { "trigger": "hiyaml", "contents": "{% highlight yaml %}\n$0\n{% endhighlight %}" },
+    ]
+}
