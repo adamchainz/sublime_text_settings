@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"all"
+		"all",
+		"lookml"
 	]
 }
