@@ -20,6 +20,10 @@
         { "trigger": "wi", "contents": "with ${1:open()}:" },
         { "trigger": "ra", "contents": "raise ${1:AssertionError()}" },
 
+        // Three letters
+        { "trigger": "ddd", "contents": "decode('utf-8')" },
+        { "trigger": "eee", "contents": "encode('utf-8')" },
+
         // File headers
         { "trigger": "hashbang", "contents": "#!/usr/bin/env python\n" },
         { "trigger": "utf8", "contents": "# coding=utf-8\n" },
@@ -103,6 +107,7 @@
         { "trigger": "idjsix", "contents": "from django.utils import six" },
         { "trigger": "ioverride_settings", "contents": "from django.test.utils import override_settings" },
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
+        { "trigger": "ivalidationerror", "contents": "from django.core.exceptions import ValidationError" },
         { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
         { "trigger": "defsetuptestdata", "contents": "@classmethod\ndef setUpTestData(cls):\n    ${0:super(Class, cls).setUpTestData()}"},
         { "trigger": "ssetuptd", "contents": "super(${1:Class}, cls).setUpTestData()" },
