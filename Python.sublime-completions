@@ -79,6 +79,8 @@
 
         // Imports
         { "trigger": "idatetime", "contents": "import datetime as dt" },
+        { "trigger": "idecimal", "contents": "from decimal import Decimal" },
+        { "trigger": "ifraction", "contents": "from fraction import Fraction" },
         { "trigger": "inumpy", "contents": "import numpy as np" },
         { "trigger": "ipandas", "contents": "import pandas as pd" },
         { "trigger": "ipath", "contents": "from pathlib import Path" },
