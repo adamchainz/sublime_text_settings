@@ -97,6 +97,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Variable function</string>
+            <key>scope</key>
+            <string>variable.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a4c460</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Keyword</string>
             <key>scope</key>
             <string>keyword</string>
