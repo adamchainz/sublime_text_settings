@@ -8,3 +8,4 @@ Package Control.user-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
 YPlan-*.sublime-commands
+oscrypto-ca-bundle.crt
