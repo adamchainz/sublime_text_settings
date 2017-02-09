@@ -98,7 +98,7 @@
 		"*.tiles",
 		"*.svn"
 	],
-	"font_face": "Ubuntu Mono",
+	"font_face": "Ubuntu Mono Nerd Font Complete",
 	"font_options":
 	[
 		"subpixel_antialias"
