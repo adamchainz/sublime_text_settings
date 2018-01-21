@@ -47,15 +47,16 @@
 		"StringUtilities",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-json",
-		"SublimeLinter-pyyaml",
 		"SublimeLinter-shellcheck",
 		"SublimeREPL",
 		"Switch View in Group",
 		"Theme - Soda",
 		"Unicode Character Highlighter",
 		"Varnish VCL",
+		"WordCount",
 		"WordHighlight",
 		"Wrap Plus"
 	]
