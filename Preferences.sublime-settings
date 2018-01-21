@@ -25,7 +25,12 @@
 		"unicode",
 		"backports",
 		"mixin",
-		"codebase"
+		"codebase",
+		"programmatically",
+		"blog",
+		"setup",
+		"rollback",
+		"Django's"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
