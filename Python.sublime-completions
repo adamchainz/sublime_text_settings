@@ -86,7 +86,8 @@
         { "trigger": "ipath", "contents": "from pathlib import Path" },
         { "trigger": "ipprint", "contents": "from pprint import pprint" },
         { "trigger": "ipyplot", "contents": "import matplotlib.pyplot as plt" },
-        { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
+        { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = os.path.dirname(__file__)" },
+        { "trigger": "mmmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
 
         // Templates
         { "trigger": "ffheader", "contents": "# -*- coding:utf-8 -*-\nfrom __future__ import (absolute_import, division, print_function,\n                        unicode_literals)"},
