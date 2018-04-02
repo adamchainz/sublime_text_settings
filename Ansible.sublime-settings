@@ -1,7 +1,4 @@
 {
-	"extensions":
-	[
-		"yml"
-	],
+	"extensions": [],
     "tab_size": 2
 }
