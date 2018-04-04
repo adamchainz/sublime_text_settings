@@ -30,7 +30,12 @@
 		"blog",
 		"setup",
 		"rollback",
-		"Django's"
+		"Django's",
+		"codebase",
+		"tuple",
+		"metaclass",
+		"dict",
+		"endhighlight"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
