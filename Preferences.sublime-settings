@@ -100,13 +100,14 @@
 	"find_selected_text": false,
 	"folder_exclude_patterns":
 	[
+		"*.esproj",
+		"*.svn",
+		"*.tiles",
 		".bundle",
 		".git",
 		".sass-cache",
 		".tox",
-		"*.esproj",
-		"*.tiles",
-		"*.svn"
+		"node_modules"
 	],
 	"font_face": "Ubuntu Mono Nerd Font Complete",
 	"font_options":
