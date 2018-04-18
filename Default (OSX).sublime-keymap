@@ -172,6 +172,6 @@
     { "keys": ["super+k","super+shift+u"], "command": "smart_title_case"},
 
     // SublimeLinter
-    { "keys": ["super+shift+l"], "command": "sublime_linter_goto_error", "args": {"direction": "next"}
+    { "keys": ["super+shift+l"], "command": "sublime_linter_goto_error", "args": {"direction": "next", "wrap": true}
     },
 ]
