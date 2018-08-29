@@ -104,7 +104,7 @@
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
         { "trigger": "icall_command", "contents": "from django.core.management import call_command" },
         { "trigger": "iconnections", "contents": "from django.db import connections" },
-        { "trigger": "ireverse", "contents": "from django.core.urlresolvers import reverse" },
+        { "trigger": "ireverse", "contents": "from django.urls import reverse" },
         { "trigger": "imodels", "contents": "from django.db import models" },
         { "trigger": "isettings", "contents": "from django.conf import settings" },
         { "trigger": "idjsix", "contents": "from django.utils import six" },
