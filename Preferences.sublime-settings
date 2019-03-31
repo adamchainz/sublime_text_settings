@@ -58,7 +58,16 @@
 		"Omnifolio",
 		"Resynthesis",
 		"Winton",
-		"Musictech"
+		"Musictech",
+		"blogged",
+		"commandline",
+		"entrypoint",
+		"shortcuts",
+		"shebang",
+		"app",
+		"apps",
+		"templating",
+		"backends"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
