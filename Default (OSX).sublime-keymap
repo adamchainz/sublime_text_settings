@@ -36,6 +36,10 @@
     { "keys": ["super+g"], "command": "find_next", "args": {"reverse": false} },
     { "keys": ["super+shift+g"], "command": "find_prev", "args": {"reverse": false} },
 
+    // Navigate through changes
+    { "keys": ["alt+shift+n"], "command": "next_modification" },
+    { "keys": ["alt+shift+e"], "command": "prev_modification" },
+
     // Add in UI hide/show
     { "keys": ["super+k","super+m"], "command": "toggle_minimap"},
     { "keys": ["super+k","super+t"], "command": "toggle_tabs"},
@@ -159,10 +163,6 @@
 
     // Emmet
     { "keys": ["alt+shift+w"], "command": "wrap_as_you_type" },
-
-    // Modific
-    { "keys": ["shift+super+m"], "command": "uncommitted_files" },
-    { "keys": ["alt+shift+n"], "command": "jump_between_changes", "args": {"direction": "next"} },
 
     // Move Tab
     { "keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": { "position": "-1"} },
