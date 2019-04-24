@@ -70,7 +70,13 @@
 		"backends",
 		"middleware",
 		"analytics",
-		"clickjacking"
+		"clickjacking",
+		"webhook",
+		"Pytest",
+		"Botocore",
+		"Botocore's",
+		"Boto3",
+		"Stubber"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
