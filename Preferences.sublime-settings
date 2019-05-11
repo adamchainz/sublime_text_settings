@@ -76,7 +76,10 @@
 		"Botocore",
 		"Botocore's",
 		"Boto3",
-		"Stubber"
+		"Stubber",
+		"Yup",
+		"skeptical",
+		"documentarian"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
