@@ -2,4 +2,9 @@
 {
     "lint_mode": "load_save",
     "show_panel_on_save": "view",
+    "linters": {
+        "flake8": {
+            "python": "/Users/chainz/.pyenv/shims/python"
+        }
+    }
 }
