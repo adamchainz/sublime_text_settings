@@ -85,7 +85,7 @@
 	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
-	"auto_complete_with_fields": true,
+	"auto_complete_with_fields": false,
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
@@ -172,6 +172,7 @@
 	"highlight_word_under_cursor_when_selection_is_empty": true,
 	"ignored_packages":
 	[
+		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"line_padding_bottom": 0,
