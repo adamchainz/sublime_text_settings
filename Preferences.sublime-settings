@@ -81,7 +81,10 @@
 		"skeptical",
 		"documentarian",
 		"unrecognized",
-		"contrib"
+		"contrib",
+		"autoscaling",
+		"changelogs",
+		"misconfigurations"
 	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
