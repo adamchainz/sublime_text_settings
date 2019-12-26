@@ -1,0 +1,4 @@
+// RustFmt Settings - User
+{
+    "executable": ["/Users/chainz/.cargo/bin/rustfmt"]
+}
