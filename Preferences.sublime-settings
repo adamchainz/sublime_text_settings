@@ -86,7 +86,8 @@
 		"changelogs",
 		"misconfigurations",
 		"constraining",
-		"Namespaces"
+		"Namespaces",
+		"walkthrough"
 	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
