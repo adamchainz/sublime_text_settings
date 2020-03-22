@@ -3,6 +3,7 @@
 
     "completions":
     [
+        { "trigger": "cbcon", "contents": ".. code-block:: console\n\n    " },
         { "trigger": "cbsh", "contents": ".. code-block:: sh\n\n    " },
         { "trigger": "cbpy", "contents": ".. code-block:: python\n\n    " },
         { "trigger": "cbpyc", "contents": ".. code-block:: pycon\n\n    " }
