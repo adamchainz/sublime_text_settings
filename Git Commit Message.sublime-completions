@@ -1,0 +1,6 @@
+{
+    "scope": "text.git-commit",
+    "completions": [
+        {"trigger": "cab", "contents": "Co-Authored-By: Adam Johnson <me@adamj.eu>"},
+    ]
+}
