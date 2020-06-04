@@ -91,13 +91,48 @@
         ]
     },
 
+    // Reimplement quote and bracket wrapping
+    // This is built-in to Sublime but is bundled with annoying automatic
+    // insertion of ) when you type ( in the setting auto_match_enabled
+    { "keys": ["\""],
+       "command": "insert_snippet",
+       "args": {"contents": "\"${0:$SELECTION}\""},
+       "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+    { "keys": ["'"],
+       "command": "insert_snippet",
+       "args": {"contents": "'${0:$SELECTION}'"},
+       "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+    { "keys": ["("],
+       "command": "insert_snippet",
+       "args": {"contents": "(${0:$SELECTION})"},
+       "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+    { "keys": ["["],
+       "command": "insert_snippet",
+       "args": {"contents": "[${0:$SELECTION}]"},
+       "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+        ]
+    },
+
     // Smart quote wrapping
     { "keys": ["alt+["],
        "command": "insert_snippet",
        "args": {"contents": "“${0:$SELECTION}”"},
        "context":
         [
-            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
         ]
     },
@@ -106,12 +141,11 @@
        "args": {"contents": "‘${0:$SELECTION}’"},
        "context":
         [
-            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
         ]
     },
 
-    // Fuckin' snippets stop cycling on tab
+    // Stop cycling between snippet fields on tab - rarely desired
     { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
         "context":
         [
