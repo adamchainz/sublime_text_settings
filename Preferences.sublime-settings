@@ -119,7 +119,6 @@
 		"*.gif",
 		"*.jpg",
 		"*.jpeg",
-		"Gemfile.lock",
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
