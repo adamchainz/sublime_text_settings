@@ -179,7 +179,6 @@
 	"ignored_packages":
 	[
 		"RestructuredText",
-		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"line_padding_bottom": 0,

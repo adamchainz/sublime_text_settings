@@ -49,7 +49,6 @@
 		"SqlBeautifier",
 		"StringUtilities",
 		"sublack",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-flake8",
