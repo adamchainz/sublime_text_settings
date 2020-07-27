@@ -87,7 +87,9 @@
 		"misconfigurations",
 		"constraining",
 		"Namespaces",
-		"walkthrough"
+		"walkthrough",
+		"pytest",
+		"caplog"
 	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
