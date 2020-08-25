@@ -89,7 +89,9 @@
 		"Namespaces",
 		"walkthrough",
 		"pytest",
-		"caplog"
+		"caplog",
+		"toolbar",
+		"analyze"
 	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": true,
