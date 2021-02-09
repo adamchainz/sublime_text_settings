@@ -3,9 +3,10 @@ import sublime_plugin
 
 class InterpretWithPythonCommand(sublime_plugin.TextCommand):
     always_import = (
-        'datetime',
-        'math',
-        'random',
+        "datetime",
+        "html",
+        "math",
+        "random",
     )
 
     def run(self, edit):
@@ -13,7 +14,7 @@ class InterpretWithPythonCommand(sublime_plugin.TextCommand):
         glob = globals()
         loc = {}
         for import_me in self.always_import:
-            module = __import__(import_me, glob, loc, ['*'])
+            module = __import__(import_me, glob, loc, ["*"])
             for k in dir(module):
                 loc[k] = getattr(module, k)
 
