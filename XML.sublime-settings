@@ -7,7 +7,7 @@
 		"svg",
 		"plist"
 	],
-	"hidden_extensions":
+	/*"hidden_extensions":
 	[
 		"rss",
 		"vcproj",
@@ -15,12 +15,12 @@
 		"tmTheme",
 		"tmSnippet",
 		"dae"
-	],
-	"package_dev.bootstrapped":
+	],*/
+	/*"package_dev.bootstrapped":
 	[
 		3126,
 		2017,
 		3,
 		13
-	]
+	]*/
 }

@@ -201,7 +201,7 @@
 	"ignored_packages":
 	[
 		"RestructuredText",
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
@@ -224,5 +224,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
 }
