@@ -3,9 +3,6 @@ import sublime
 import sublime_plugin
 
 
-last_added = None
-
-
 def find_under_prev(view, edit, skip=False):
     sels = view.sel()
 
@@ -30,9 +27,7 @@ def find_under_prev(view, edit, skip=False):
 
 class FindUnderPrevExpandCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        print("run")
         find_under_prev(self.view, edit)
-        print("ran")
 
 
 class FindUnderPrevExpandSkipCommand(sublime_plugin.TextCommand):
