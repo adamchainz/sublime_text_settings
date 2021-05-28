@@ -44,7 +44,6 @@
 		"Project Specific Syntax Settings",
 		"Puppet",
 		"Restructured Text (RST) Snippets",
-		"RestructuredText Improved",
 		"RustFmt",
 		"SCSS",
 		"Smart Title Case",
@@ -62,10 +61,8 @@
 		"Theme - Soda",
 		"TOML",
 		"TypeScript Syntax",
-		"Unicode Character Highlighter",
 		"Varnish VCL",
-		"WordCount",
 		"WordHighlight",
-		"Wrap Plus"
+		"Wrap Plus",
 	],
 }
