@@ -211,8 +211,6 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"show_tab_close_buttons": true,
-	"sublimelinter_mark_style": "outline",
-	"sublimelinter_popup_errors_on_save": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
