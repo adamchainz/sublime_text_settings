@@ -215,7 +215,7 @@
 	"save_on_focus_lost": false,
 	"scroll_speed": 1.8,
 	"show_encoding": true,
-	"show_full_path": true,
+	"show_rel_path": true,
 	"show_tab_close_buttons": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
