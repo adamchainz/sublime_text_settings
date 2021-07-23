@@ -123,7 +123,7 @@
 	"color_scheme": "Packages/User/Phix Dark Chainz (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_centered": false,
-	"draw_white_space": "selection",
+	"draw_white_space": ["all_mixed", "selection"],
 	"ensure_newline_at_eof_on_save": true,
 	"figlet_font": "standard",
 	"file_exclude_patterns":
