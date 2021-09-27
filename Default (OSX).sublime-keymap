@@ -50,6 +50,7 @@
     { "keys": ["super+right"], "command": "soft_redo" },
 
     // Make multiselection better
+    { "keys": ["super+j", "super+i"], "command": "expand_selection", "args": {"to": "indentation"}},
     { "keys": ["super+q","super+l"], "command": "split_selection_into_lines" },
     { "keys": ["super+q","up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["super+q","down"], "command": "select_lines", "args": {"forward": true} },
