@@ -1,7 +1,6 @@
 [
     // User plugins
     { "caption": "Interpret with Python", "command": "interpret_with_python" },
-    { "caption": "Markdown to reStructuredText", "command": "markdown_to_rst" },
     { "caption": "Select a Column [Tab-Based]", "command": "select_column_prompt" },
 
     // Plugins

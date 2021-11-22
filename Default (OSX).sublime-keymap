@@ -182,9 +182,6 @@
     // toggle_gutter.py
     { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
 
-    { "keys": ["super+i"], "command": "markdown_to_rst" },
-    { "keys": ["super+y"], "command": "rst_inline_link" },
-
     /*
         My plugins
     */
