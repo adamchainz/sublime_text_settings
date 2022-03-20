@@ -7,6 +7,7 @@ class InterpretWithPythonCommand(sublime_plugin.TextCommand):
         "html",
         "math",
         "random",
+        "statistics",
     )
 
     def run(self, edit):
