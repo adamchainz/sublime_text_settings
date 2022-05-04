@@ -86,6 +86,7 @@
         { "trigger": "ipath", "contents": "from pathlib import Path" },
         { "trigger": "ipprint", "contents": "from pprint import pprint" },
         { "trigger": "ipyplot", "contents": "import matplotlib.pyplot as plt" },
+        { "trigger": "ipython", "contents": "import IPython; IPython.embed()" },
         { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = os.path.dirname(__file__)" },
         { "trigger": "mmmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
 
