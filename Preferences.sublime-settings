@@ -138,7 +138,7 @@
 		"mixups",
 		"mixup",
 	],
-	"auto_complete": false,
+	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": false,
 	"auto_match_enabled": false,
