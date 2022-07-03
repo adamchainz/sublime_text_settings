@@ -43,7 +43,6 @@
 		"StringUtilities",
 		"sublack",
 		"SublimeLinter",
-		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-json",
 		"SublimeLinter-shellcheck",
