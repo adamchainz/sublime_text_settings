@@ -233,6 +233,7 @@
 		"subpixel_antialias"
 	],
 	"font_size": 16,
+	"goto_anything_exclude_gitignore": true,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
