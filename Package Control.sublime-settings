@@ -1,9 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"Ansible",
@@ -50,9 +47,9 @@
 		"Theme - Soda",
 		"TOML",
 		"TypeScript Syntax",
-		"WordCount",
 		"WordHighlight",
 		"Wrap Plus",
 		"Zig Language",
+		"WordingStatus",
 	],
 }
