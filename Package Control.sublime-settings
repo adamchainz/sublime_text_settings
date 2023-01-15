@@ -10,8 +10,8 @@
 		"EditorConfig",
 		"Figlet Big ASCII Text",
 		"Fluentd",
-		"Git",
 		"GitHubinator",
+		"GitSavvy",
 		"Handlebars",
 		"HTML5",
 		"HTMLAttributes",
@@ -48,9 +48,9 @@
 		"TOML",
 		"TypeScript Syntax",
 		"WordHighlight",
+		"WordingStatus",
 		"Wrap Plus",
 		"Zig Language",
-		"WordingStatus",
 	],
 	"in_process_packages":
 	[
