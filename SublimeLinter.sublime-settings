@@ -6,5 +6,5 @@
         "flake8": {
             "python": "/Users/chainz/.pyenv/shims/python"
         }
-    }
+    },
 }
