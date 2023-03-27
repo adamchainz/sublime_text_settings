@@ -2,5 +2,6 @@
     "selector": "text.restructuredtext",
     "settings": {
       "grammarly.config.documentDialect": "british",
-  }
+  },
+  "enabled": true,
 }
