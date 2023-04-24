@@ -20,6 +20,8 @@
     // Faster finding
     { "keys": ["super+up"], "command": "find_under_prev" },
     { "keys": ["super+down"], "command": "find_under" },
+    { "keys": ["super+alt+g"], "command": "next_result" },
+    { "keys": ["super+alt+shift+g"], "command": "prev_result" },
 
     // Line operations
     { "keys": ["shift+delete"], "command": "join_lines" },
