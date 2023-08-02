@@ -233,7 +233,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"goto_anything_exclude_gitignore": true,
 	"gutter": true,
 	"highlight_line": true,
