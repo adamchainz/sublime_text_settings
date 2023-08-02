@@ -1,5 +1,5 @@
 {
-    "selector": "text.restructuredtext",
+    "selector": "text.html.markdown,text.restructuredtext",
     "settings": {
       "grammarly.config.documentDialect": "british",
   },
