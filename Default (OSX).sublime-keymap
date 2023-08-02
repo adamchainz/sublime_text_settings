@@ -197,9 +197,6 @@
     // fonts.py
     { "keys": ["super+0"], "command": "default_font_size" },
 
-    // last_view.py
-    { "keys": ["super+9"], "command": "last_view" },
-
     // toggle_gutter.py
     { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
 
