@@ -228,12 +228,8 @@
 		"CVS",
 		"node_modules",
 	],
-	"font_face": "Ubuntu Mono Nerd Font Complete",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 15,
+	"font_face": "UbuntuMono Nerd Font",
+	"font_size": 17,
 	"goto_anything_exclude_gitignore": true,
 	"gutter": true,
 	"highlight_line": true,
