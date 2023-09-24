@@ -229,7 +229,7 @@
 		"node_modules",
 	],
 	"font_face": "UbuntuMono Nerd Font",
-	"font_size": 17,
+	"font_size": 16,
 	"goto_anything_exclude_gitignore": true,
 	"gutter": true,
 	"highlight_line": true,
