@@ -262,6 +262,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
+	"update_check": true,
 	"use_find_clipboard": false,
 	"word_wrap": true,
 }
