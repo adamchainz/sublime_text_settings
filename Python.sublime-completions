@@ -4,34 +4,13 @@
     "completions":
     [
         // One letter
-        { "trigger": "c", "contents": "cls" },
-        { "trigger": "d", "contents": "\"\"\"\n${1:Documentation}\n\"\"\"" },
         { "trigger": "F", "contents": "False" },
-        { "trigger": "f", "contents": "from ${1:datetime} import ${2:datetime, timedelta}" },
-        { "trigger": "i", "contents": "import ${1:math}" },
         { "trigger": "N", "contents": "None" },
-        { "trigger": "p", "contents": "print($0)" },
-        { "trigger": "r", "contents": "return ${1:True}" },
         { "trigger": "s", "contents": "self" },
         { "trigger": "T", "contents": "True" },
 
-        // Two letters
-        { "trigger": "pa", "contents": "pass" },
-        { "trigger": "wi", "contents": "with ${1:open()}:" },
-        { "trigger": "ra", "contents": "raise ${1:AssertionError()}" },
-
-        // Three letters
-        { "trigger": "ddd", "contents": "decode('utf-8')" },
-        { "trigger": "eee", "contents": "encode('utf-8')" },
-
         // File headers
         { "trigger": "hashbang", "contents": "#!/usr/bin/env python\n" },
-        { "trigger": "utf8", "contents": "# coding=utf-8\n" },
-
-        // Features
-        { "trigger": "__all", "contents": "__all__ = ('$0',)" },
-        { "trigger": "super", "contents": "super(${1:Class}, self).${2:__init__}()" },
-        { "trigger": "superc", "contents": "super(${1:Class}, cls).${2:setUpClass}()" },
 
         // Methods
         { "trigger": "defc", "contents": "@classmethod\ndef ${1:method}(cls):\n    pass" },
@@ -46,13 +25,10 @@
         { "trigger": "defstest", "contents": "def test_${1:something}(self):\n    ${2:pass}\n" },
 
         // Debugging
+        { "trigger": "bp", "contents": "breakpoint()" },
         { "trigger": "pdb", "contents": "import pdb; pdb.set_trace()" },
         { "trigger": "ipdb", "contents": "import ipdb; ipdb.set_trace()" },
         { "trigger": "ipython", "contents": "import IPython; IPython.embed()" },
-
-        // Logging
-        { "trigger": "log", "contents": "logger.${2:info}($1)" },
-        { "trigger": "logger", "contents": "logger = logging.getLogger(__name__)" },
 
         // unittest
         { "trigger": "aE", "contents": "self.assertEqual(${1:actual}, ${2:expected})" },
@@ -90,17 +66,8 @@
         { "trigger": "mmmodule_dir", "contents": "MODULE_DIR = os.path.dirname(__file__)" },
         { "trigger": "mmmmodule_dir", "contents": "MODULE_DIR = Path(__file__).parent.resolve()" },
 
-        // Templates
-        { "trigger": "ffheader", "contents": "# -*- coding:utf-8 -*-\nfrom __future__ import (absolute_import, division, print_function,\n                        unicode_literals)"},
-        { "trigger": "ttscript", "contents": "#!/usr/bin/env python\n\ndef main():\n    ${1:code}\n\nif __name__ == '__main__':\n    main()" },
-        { "trigger": "ttunitest", "contents": "import unittest\n\n\nclass ${1:My}Tests(unittest.TestCase):\n    def test_${2:something}(self):\n        ${3:pass}\n\n\nif __name__ == '__main__':\n    unittest.main()" },
-
-        // Coverage
-        { "trigger": "nocover", "contents": "# pragma: no cover"},
-
         // Django
         { "trigger": "iapps", "contents": "from django.apps import apps" },
-        { "trigger": "iatomic", "contents": "from django.db.transaction import atomic" },
         { "trigger": "icache", "contents": "from django.core.cache import cache" },
         { "trigger": "icached_property", "contents": "from django.utils.functional import cached_property" },
         { "trigger": "icall_command", "contents": "from django.core.management import call_command" },
@@ -113,9 +80,6 @@
         { "trigger": "itimezone", "contents": "from django.utils import timezone" },
         { "trigger": "ivalidationerror", "contents": "from django.core.exceptions import ValidationError" },
         { "trigger": "withcursor", "contents": "with connection.cursor() as cursor:\n    " },
-        { "trigger": "defsetuptestdata", "contents": "@classmethod\ndef setUpTestData(cls):\n    ${0:super(Class, cls).setUpTestData()}"},
-        { "trigger": "ssetuptd", "contents": "super(${1:Class}, cls).setUpTestData()" },
-        { "trigger": "DNE", "contents": "DoesNotExist"}
 
     ]
 }
