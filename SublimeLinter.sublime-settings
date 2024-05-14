@@ -4,7 +4,7 @@
     "show_panel_on_save": "view",
     "linters": {
         "flake8": {
-            "python": "/Users/chainz/.local/share/mise/shims/python"
+            "executable": ["mise","exec", "python", "--", "flake8"],
         }
     },
 }
