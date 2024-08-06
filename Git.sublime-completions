@@ -1,0 +1,7 @@
+{
+    "scope": "text.git",
+    "completions":
+    [
+        { "trigger": "co", "contents": "co-authored-by: " },
+    ]
+}
