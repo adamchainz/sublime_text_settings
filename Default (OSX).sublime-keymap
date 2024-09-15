@@ -20,13 +20,8 @@
     { "keys": ["super+alt+shift+g"], "command": "prev_result" },
 
     // Line operations
-    { "keys": ["shift+delete"], "command": "join_lines" },
-    { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
-    { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
-    { "keys": ["ctrl+d"], "command": "duplicate_line" },
-    { "keys": ["super+backspace"], "command": "delete_line_above" },
-    { "keys": ["super+delete"], "command": "delete_line_below" },
+    { "keys": ["super+shift+d"], "command": "duplicate_line" },
+    { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 
     // Instant goto line & incremental
     { "keys": ["ctrl+g"], "command": "prompt_goto_line" },
@@ -54,8 +49,6 @@
     { "keys": ["super+q","down"], "command": "select_lines", "args": {"forward": true} },
     { "keys": ["super+q","super+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["super+q","super+down"], "command": "select_lines", "args": {"forward": true} },
-    { "keys": ["super+shift+d"], "command": "find_under_prev_expand" },
-    { "keys": ["super+shift+k", "super+shift+d"], "command": "find_under_prev_expand_skip" },
     { "keys": ["super+alt+d"], "command": "add_next_word" },
     { "keys": ["super+k","super+alt+d"], "command": "add_next_word_skip" },
     { "keys": ["super+alt+k","super+alt+d"], "command": "add_next_word_skip" },
