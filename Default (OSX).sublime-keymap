@@ -35,12 +35,9 @@
 
     // Add in UI hide/show
     { "keys": ["super+k","super+m"], "command": "toggle_minimap"},
-    { "keys": ["super+k","super+t"], "command": "toggle_tabs"},
 
     // More web-browser-y
     { "keys": ["super+t"], "command": "new_file" },
-    { "keys": ["super+left"], "command": "soft_undo" },
-    { "keys": ["super+right"], "command": "soft_redo" },
 
     // Make multiselection better
     { "keys": ["super+j", "super+i"], "command": "expand_selection", "args": {"to": "indentation"}},
@@ -53,23 +50,9 @@
     { "keys": ["super+k","super+alt+d"], "command": "add_next_word_skip" },
     { "keys": ["super+alt+k","super+alt+d"], "command": "add_next_word_skip" },
 
-    // scroll view easily
-    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 10} },
-    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -10} },
-
     // Fix paste with indentation as default, add reindent shortcut
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },
-
-    // Book marks on cmd-b
-    { "keys": ["super+shift+b"], "command": "build" },
-    { "keys": ["super+b", "super+b"], "command": "toggle_bookmark" },
-    { "keys": ["super+b", "super+m"], "command": "toggle_bookmark" },
-    { "keys": ["super+b", "super+p"], "command": "prev_bookmark" },
-    { "keys": ["super+b", "super+n"], "command": "next_bookmark" },
-    { "keys": ["super+b", "super+c"], "command": "clear_bookmarks" },
-    { "keys": ["super+b", "super+shift+m"], "command": "select_all_bookmarks" },
-    { "keys": ["super+b", "super+a"], "command": "select_all_bookmarks" },
 
     // Word deletion like terminal
     { "keys": ["alt+shift+d"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
@@ -167,16 +150,11 @@
     // fonts.py
     { "keys": ["super+0"], "command": "default_font_size" },
 
-    // toggle_gutter.py
-    { "keys": ["super+k", "super+g"], "command": "toggle_gutter" },
-
     /*
         My plugins
     */
 
     // Switch view in group
-    { "keys": ["ctrl+tab"], "command": "next_view_in_group" },
-    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_group" },
     { "keys": ["super+shift+]"], "command": "next_view_in_group" },
     { "keys": ["super+shift+["], "command": "prev_view_in_group" },
 
@@ -184,17 +162,9 @@
         Other plugins
     */
 
-    // Emmet
-    { "keys": ["alt+shift+w"], "command": "wrap_as_you_type" },
-
-    // Move Tab
-    { "keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": { "position": "-1"} },
-    { "keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": { "position": "+1"} },
-
     // Smart Title Case
     { "keys": ["super+k","super+shift+u"], "command": "smart_title_case"},
 
     // SublimeLinter
-    { "keys": ["super+shift+l"], "command": "sublime_linter_goto_error", "args": {"direction": "next", "wrap": true}
-    },
+    { "keys": ["super+shift+l"], "command": "sublime_linter_goto_error", "args": {"direction": "next", "wrap": true} },
 ]
